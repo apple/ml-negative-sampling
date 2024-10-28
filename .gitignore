@@ -1,0 +1,7 @@
+__pycache__/
+.git/
+.DS_STORE
+.idea/
+*.tsv
+*.txt
+*.zip

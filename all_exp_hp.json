@@ -1,0 +1,248 @@
+{
+    "uniform": {
+        "ml10m": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 64,
+            "dataset": "ml10m",
+            "dropout_rate": 0.2,
+            "lr": 0.01,
+            "maxlen": 200,
+            "neg_sampler_type": "uniform",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 50,
+            "num_neg_samples": 50
+        },
+        "Beauty": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 128,
+            "dataset": "Beauty",
+            "dropout_rate": 0.2,
+            "lr": 0.0001,
+            "maxlen": 50,
+            "neg_sampler_type": "uniform",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 50,
+            "num_neg_samples": 5
+        },
+        "Retail": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 256,
+            "dataset": "Retail",
+            "dropout_rate": 0.2,
+            "lr": 0.001,
+            "maxlen": 50,
+            "neg_sampler_type": "uniform",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 50,
+            "num_neg_samples": 5
+        }
+    },    
+    "popularity": {
+        "ml10m": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 64,
+            "dataset": "ml10m",
+            "dropout_rate": 0.2,
+            "lr": 0.0001,
+            "maxlen": 200,
+            "neg_sampler_type": "popularity",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 50,
+            "num_neg_samples": 50
+        },
+        "Beauty": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 128,
+            "dataset": "Beauty",
+            "dropout_rate": 0.2,
+            "lr": 0.0001,
+            "maxlen": 50,
+            "neg_sampler_type": "popularity",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 50,
+            "num_neg_samples": 5
+        },
+        "Retail": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 256,
+            "dataset": "Retail",
+            "dropout_rate": 0.2,
+            "lr": 0.01,
+            "maxlen": 50,
+            "neg_sampler_type": "popularity",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 50,
+            "num_neg_samples": 5
+        }
+    },    
+    "in-batch": {
+        "ml10m": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 128,
+            "dataset": "ml10m",
+            "dropout_rate": 0.2,
+            "lr": 0.01,
+            "maxlen": 200,
+            "neg_sampler_type": "in-batch",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 50,
+            "num_neg_samples": 5
+        },
+        "Beauty": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 128,
+            "dataset": "Beauty",
+            "dropout_rate": 0.2,
+            "lr": 0.0001,
+            "maxlen": 50,
+            "neg_sampler_type": "in-batch",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 50,
+            "num_neg_samples": 50
+        },
+        "Retail": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 128,
+            "dataset": "Retail",
+            "dropout_rate": 0.2,
+            "lr": 0.0001,
+            "maxlen": 50,
+            "neg_sampler_type": "in-batch",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 50,
+            "num_neg_samples": 50
+        }
+    },    
+    "mixed": {
+        "ml10m": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 128,
+            "dataset": "ml10m",
+            "dropout_rate": 0.2,
+            "lr": 0.01,
+            "maxlen": 200,
+            "neg_sampler_type": "mixed",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 50,
+            "num_neg_samples": 50
+        },
+        "Beauty": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 64,
+            "dataset": "Beauty",
+            "dropout_rate": 0.2,
+            "lr": 0.001,
+            "maxlen": 50,
+            "neg_sampler_type": "mixed",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 5,
+            "num_neg_samples": 5
+        },
+        "Retail": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 256,
+            "dataset": "Retail",
+            "dropout_rate": 0.2,
+            "lr": 0.001,
+            "maxlen": 50,
+            "neg_sampler_type": "mixed",
+            "num_adaptive_samples": 50,
+            "num_epochs": 201,
+            "num_mixed_samples": 5,
+            "num_neg_samples": 5
+        }
+    },    
+    "adaptive-only": {
+        "ml10m": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 128,
+            "dataset": "ml10m",
+            "dropout_rate": 0.2,
+            "lr": 0.01,
+            "maxlen": 200,
+            "neg_sampler_type": "adaptive",
+            "num_adaptive_samples": 5,
+            "num_epochs": 201,
+            "num_mixed_samples": 0,
+            "num_neg_samples": 100
+        },
+        "Beauty": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 128,
+            "dataset": "Beauty",
+            "dropout_rate": 0.2,
+            "lr": 0.0001,
+            "maxlen": 50,
+            "neg_sampler_type": "adaptive",
+            "num_adaptive_samples": 25,
+            "num_epochs": 201,
+            "num_mixed_samples": 0,
+            "num_neg_samples": 100
+        },
+        "Retail": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 256,
+            "dataset": "Retail",
+            "dropout_rate": 0.2,
+            "lr": 0.01,
+            "maxlen": 50,
+            "neg_sampler_type": "adaptive",
+            "num_adaptive_samples": 5,
+            "num_epochs": 201,
+            "num_mixed_samples": 0,
+            "num_neg_samples": 100
+        }
+    },                    
+    "adaptive": {
+        "ml10m": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 64,
+            "dataset": "ml10m",
+            "dropout_rate": 0.2,
+            "lr": 0.01,
+            "maxlen": 200,
+            "neg_sampler_type": "adaptive",
+            "num_adaptive_samples": 25,
+            "num_epochs": 201,  
+            "num_mixed_samples": 100,
+            "num_neg_samples": 10
+        },
+        "Beauty": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 64,
+            "dataset": "Beauty",
+            "dropout_rate": 0.2,
+            "lr": 0.001,
+            "maxlen": 50,
+            "neg_sampler_type": "adaptive",
+            "num_adaptive_samples": 5,
+            "num_epochs": 201, 
+            "num_mixed_samples": 100,
+            "num_neg_samples": 10
+        },
+        "Retail": {
+            "batch_oversampling_factor": 30,
+            "batch_size": 128,
+            "dataset": "Retail",
+            "dropout_rate": 0.2,
+            "lr": 0.001,
+            "maxlen": 50,
+            "neg_sampler_type": "adaptive",
+            "num_adaptive_samples": 5,
+            "num_epochs": 201,
+            "num_mixed_samples": 100,
+            "num_neg_samples": 10
+        }
+    }    
+}
