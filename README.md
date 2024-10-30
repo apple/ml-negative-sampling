@@ -1,6 +1,6 @@
-# On The Effectiveness of Negative Sampling Methods For Sequential Recommendations
+# Evaluating Performance and Bias of Negative Sampling in Large-Scale Sequential Recommendation Models
 
-This [Github repository](http://github.com/apple/ml-negative-sampling) contains the Tensorflow 2 (TF2) code for our paper.
+This [Github repository](http://github.com/apple/ml-negative-sampling) contains the Tensorflow 2 (TF2) code for our paper ([arXiv link](https://arxiv.org/pdf/2410.17276)).
 Thank you to the authors of the TF2 implementation of SASRec ([Github](https://github.com/kang205/SASRec))
 
 ### Abstract
